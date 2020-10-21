@@ -4,32 +4,8 @@
     <meta charset="UTF-8">
     <title>Portfólio Web</title>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Oswald:wght@300&display=swap" rel="stylesheet">
-    <style>
-        body{
-            background-color: rgb(208, 208, 225);
-        }
-        .name{
-            font-family: 'Oswald', sans-serif;
-        }
-        .descricao{
-            font-family: 'Open Sans Condensed', sans-serif;
-        }
-        .habilidade1{
-            font-size: 1.2em;
-        }
-        .habilidade2{
-            font-size: 1.1em;
-        }
-        .habilidade3{
-            font-size: 1.2em;
-        }
-        .habilidade4{
-            font-size: 1.1em;
-        }
-        .habilidade5{
-            font-size: 1.2em;
-        }
-    </style>
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    
 </head>
 <body>
     <h1>Meu Portfólio</h1>
@@ -43,22 +19,27 @@
         <li><a href="#contato">Contatos</a></li>
     </ul>
     <h2 id="whoami">Quem sou eu?</h2>
-    <img src="./perfil2.jpeg" alt="self minha com uma camisa florida" width="250" id="img">  
-    <p class="name">Meu nome é Gabriel Gonçalves Medeiros e tenho 22 anos.</p>
-    <h2 id="description">Descrição sobre mim</h2>
-    <p class="descricao">Sou natural de Goiânia-GO, atualmente estudo engenharia de computação na UNIALFA e desenvolvimento de Software na Trybe. Sempre fui apaixonado por tecnologia e princialmente a forma que ela nos permite fazer um mundo melhor. Nos meus tempos livres gosto de praticar esportes, principalmente futebol e vôlei ou jogar jogos de estratégia e fps.</p>
+    <div>
+        <img src="./perfil2.jpeg" class="picture" alt="self minha com uma camisa florida" id="img">  
+        <p class="name">Meu nome é Gabriel Gonçalves Medeiros e tenho 22 anos.</p>
+        <p class="descricao" id="description">Sou natural de Goiânia-GO, atualmente estudo engenharia de computação na UNIALFA e desenvolvimento de Software na Trybe. Sempre fui apaixonado por tecnologia e princialmente a forma que ela nos permite fazer um mundo melhor. Nos meus tempos livres gosto de praticar esportes, principalmente futebol e vôlei ou jogar jogos de estratégia e fps.</p>
+    </div>
+    <div class="habilidades">
     <h2>Minhas Habilidades</h2>
-    <ul>
-        <li class="habilidade1">Facilidade com problemas que envolvam lógica</li>
-        <li class="habilidade2">Trabalhar com novas pessoas</li>
-        <li class="habilidade3">Comunicação</li>
-        <li class="habilidade4">Adaptação</li>
-        <li class="habilidade5">Inglês</li>
-    </ul>
-    <h3 id="contato">Contatos</h3>
-    <ul>
-        <li><a href="https://github.com/Gabriel-Goncalves" target="_blanck">Github</a></li>
-        <li><a href="https://www.linkedin.com/in/gabriel-goncalves-medeiros/" target="_blanck">Linkedin</a></li>
-    </ul>
+        <ul>
+            <li class="habilidade1">Facilidade com problemas que envolvam lógica</li>
+            <li class="habilidade2">Trabalhar com novas pessoas</li>
+            <li class="habilidade3">Comunicação</li>
+            <li class="habilidade4">Adaptação</li>
+            <li class="habilidade5">Inglês</li>
+        </ul>
+        <h3 id="contato">Contatos</h3>
+        <ul>
+            <li><a href="https://github.com/Gabriel-Goncalves" target="_blanck">Github</a></li>
+            <li><a href="https://www.linkedin.com/in/gabriel-goncalves-medeiros/" target="_blanck">Linkedin</a></li>
+        </ul>
+    </div>
+    
+   
 </body>
 </html>
