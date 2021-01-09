@@ -92,13 +92,15 @@ li {
 .article-habilidades {
   background-color: rgb(17, 17, 17);
   min-height: 40vh;
+  padding-top: 70px;
+  padding-bottom: 75px;
 }
 
 .article-contato {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #1a1a1a;
+  background-color: rgb(17, 17, 17);
   min-height: 40vh;
 }
 
@@ -130,6 +132,12 @@ li {
   color: inherit;
 }
 
+.article-projetos {
+  min-height: 80vh;
+  background-color: #1a1a1a;
+  padding-top: 75px;
+}
+
 .article-habilidades h1{
   margin: 0;
   padding: 20px;
@@ -141,7 +149,7 @@ li {
 .habilidades {
   display: flex;
   justify-content: space-around;
-  margin-top: 50px;
+  margin-top: 100px;
   padding-bottom: 90px;
 }
 
@@ -245,13 +253,14 @@ li {
   text-decoration: none;
   padding: 0 20px;
   margin-right: 5px;
-  color: white;
+  color: beige;
   cursor: pointer;
   opacity: 0.7;
 }
 
 .nav-header a:hover {
   opacity: 1;
+  color: white;
 }
 
 .nav-header a:visited, a:hover, a:active {
