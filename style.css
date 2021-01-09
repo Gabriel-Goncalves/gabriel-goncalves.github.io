@@ -26,6 +26,7 @@ body {
 
 .cabecalho {
   display: flex;
+  /* align-items: center; */
   background-color: rgb(36, 41, 46);
   /* 2E5A88 */
   color: white;
@@ -93,6 +94,42 @@ li {
   min-height: 40vh;
 }
 
+.article-contato {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #1a1a1a;
+  min-height: 40vh;
+}
+
+.svg-contato {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.svg-contato img {
+  width: 60px;
+}
+
+.svg-contato p {
+  color: beige;
+  font-size: 1.2em;
+}
+
+.svg-contato a {
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.svg-contato a:hover {
+  opacity: 1;
+}
+
+.svg-contato a:visited, a:hover, a:active {
+  color: inherit;
+}
+
 .article-habilidades h1{
   margin: 0;
   padding: 20px;
@@ -121,26 +158,6 @@ li {
   color: white;
   text-align: center;
   font-size: 1.5em;
-}
-
-.img-header {
-  width: 32px;
-}
-
-.icones-redes {
-  /* top: 15px;
-  right: 5px;
-  width: 20%; */
-  align-self: center;
-  margin-right: 20px;
-}
-
-.link-header {
-  margin-left: 35px;
-}
-
-.first-left {
-  margin-left: 135px;
 }
 
 .who-am-i {
@@ -202,7 +219,7 @@ li {
   align-content: center;
   align-items: center;
   min-height: 115vh;
-  margin-top: -200px;
+  margin-top: -210px;
 }
 
 .svgs {
@@ -215,4 +232,28 @@ li {
   padding: 25px 5px;
   margin-right: 45px;
   width: 60%;
+}
+
+.nav-header {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.nav-header a {
+  font-size: 1.2em;
+  text-decoration: none;
+  padding: 0 20px;
+  margin-right: 5px;
+  color: white;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.nav-header a:hover {
+  opacity: 1;
+}
+
+.nav-header a:visited, a:hover, a:active {
+  color: inherit;
 }

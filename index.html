@@ -12,38 +12,27 @@
   <body>
     <header class="cabecalho">
       <h1>Gabriel Gonçalves</h1>
-      <section class="icones-redes">
-        <a
-          href="https://github.com/Gabriel-Goncalves"
-          class="link-header first-left"
-          target="_blank"
-        >
-          <img src="./imgs/t1.png" alt="" class="img-header" />
-        </a>
-        <a
-          href="https://www.linkedin.com/in/gabriel-goncalves-medeiros/"
-          class="link-header"
-          target="_blank"
-        >
-          <img
-            src="./imgs/linkedin_icon-icons.com_66096.png"
-            alt=""
-            class="img-header"
-          />
-        </a>
-      </section>
+      <nav class="nav-header">
+        <a href="#home">Home</a>
+        <a href="#aboutMe">Sobre Mim</a>
+        <a href="#skills">Skills</a>
+        <a href="">Projetos</a>
+        <a href="#contato">Contato</a>
+      </nav>
       
     </header>
     <main class="main-content">
-      <section class="introducao">
-        <h1>Gabriel Gonçalves</h1>
-        <h3>Desenvolvedor Web</h2>
-      </section>
+      <article id="home">
+        <section class="introducao">
+          <h1>Gabriel Gonçalves</h1>
+          <h3>Desenvolvedor Web</h2>
+        </section>
+      </article>
       <article class="who-am-i">
-        <p class="sobre" id="description">
+        <p class="sobre">
           Sobre Mim
         </p>
-        <section class="description-who-am-i">
+        <section class="description-who-am-i" id="aboutMe">
           <div>
             <p class="descricao" >
               Meu nome é Gabriel Gonçalves Medeiros e tenho 22 anos, atualmente estudando para ser um desenvolvedor web FrontEnd. 
@@ -68,7 +57,7 @@
           <img src="./imgs/svgs/svg1.svg" alt="" class="svgs">
         </section>        
       </article>
-      <article class="article-habilidades">
+      <article class="article-habilidades" id="skills">
         <h1>Skills</h1>
         <section class="habilidades">
           <div class="svg-habilidade">
@@ -87,7 +76,30 @@
             <img src="./imgs/svgs-habilidades/bootstrap_plain_logo_icon_146619.svg" alt="">
             <p>Bootstrap</p>
           </div>
+          <div class="svg-habilidade">
+            <img src="./imgs/svgs-habilidades/github.svg" alt="">
+            <p>Git & Github</p>
+          </div>
         </section>
+      </article>
+
+      <article class="article-contato" id="contato">
+        <div class="svg-contato">
+          <img src="./imgs/svgs-habilidades/email.svg" alt="">
+          <p>gabrielgm2898@gmail.com</p>
+        </div>
+        <div class="svg-contato">
+          <img src="./imgs/svgs-habilidades/linkedin_socialnetwork_17441.png" alt="">
+          <p>
+            <a href="https://www.linkedin.com/in/gabriel-goncalves-medeiros/" target="_blank">Linkedin</a>
+          </p>
+        </div>
+        <div class="svg-contato">
+          <img src="./imgs/svgs-habilidades/github.svg" alt="">
+          <p>
+            <a href="https://github.com/Gabriel-Goncalves" target="_blank">GitHub</a>
+          </p>
+        </div>
       </article>
     </main>
     <footer class="footer">
