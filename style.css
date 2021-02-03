@@ -136,6 +136,15 @@ li {
   min-height: 80vh;
   background-color: #1a1a1a;
   padding-top: 75px;
+  padding-bottom: 80px;
+}
+
+.article-projetos h1 {
+  text-align: center;
+  margin: 0;
+  color: beige;
+  font-size: 3em;
+  width: 100%;
 }
 
 .article-habilidades h1{
@@ -265,4 +274,44 @@ li {
 
 .nav-header a:visited, a:hover, a:active {
   color: inherit;
+}
+
+.modulos-projetos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.section-projetos {
+  min-height: 50vh;
+  margin-top: 50px;
+  width: 47%;
+}
+
+.section-projetos h2 {
+  color: beige;
+  background-color: #1a1a1a;
+  margin-top: 0;
+  text-align: center;
+  padding-bottom: 15px;
+  font-size: 2em;
+  margin-bottom: 5px;
+}
+
+.lista-de-projetos div {
+  background-color: #2A0134;
+  margin: 0 0;
+  padding: 15px 18px;
+  color: white;
+  font-size: 1.2em;
+  font-weight: 700;
+  border-bottom: 1px solid #3b0449;
+}
+
+.lista-de-projetos div:hover {
+  background-color: #8b32a1;
+}
+
+.lista-de-projetos {
+  display: flex;
+  flex-direction: column;
 }
