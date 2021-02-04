@@ -315,3 +315,22 @@ li {
   display: flex;
   flex-direction: column;
 }
+
+.project-name {
+  margin-right: 25px;
+}
+
+.section-projetos a {
+  float: right;
+  font-weight: 600;
+  margin-right: 15px;
+  margin-left: 15px;
+  text-decoration: none;
+  color: #47C072;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.section-projetos a:hover {
+  opacity: 1;
+}
