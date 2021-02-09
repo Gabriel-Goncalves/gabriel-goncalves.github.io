@@ -1,6 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap');
 
 body {
   background-color: white;
@@ -37,6 +35,8 @@ body {
   justify-content: space-between;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@700&display=swap");
+
 .cabecalho h1 {
   font-family: "Archivo Narrow", sans-serif;
   margin: 8px 0 8px 20px;
@@ -48,10 +48,13 @@ button {
   background-image: url("./perfil.png");
   background-size: cover;
 }
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap");
+
 .descricao {
   /* font-family: "Noto Serif", "Open Sans Condensed", sans-serif; */
   color: #ffffff;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 1.1em;
   padding: 5px;
@@ -128,7 +131,9 @@ li {
   opacity: 1;
 }
 
-.svg-contato a:visited, a:hover, a:active {
+.svg-contato a:visited,
+a:hover,
+a:active {
   color: inherit;
 }
 
@@ -147,7 +152,7 @@ li {
   width: 100%;
 }
 
-.article-habilidades h1{
+.article-habilidades h1 {
   margin: 0;
   padding: 20px;
   text-align: center;
@@ -202,10 +207,9 @@ li {
   text-align: center;
 }
 
-
 .text-link a {
   text-decoration: none;
-  color: #FB5681;
+  color: #fb5681;
   font-weight: 600;
 }
 
@@ -223,7 +227,7 @@ li {
 }
 
 .introducao h1 {
-  margin: 180px 0 10px 0 ;
+  margin: 180px 0 10px 0;
   font-size: 2em;
 }
 
@@ -231,7 +235,7 @@ li {
   margin-top: 10px;
 }
 
-.description-who-am-i{
+.description-who-am-i {
   display: flex;
   align-content: center;
   align-items: center;
@@ -272,7 +276,9 @@ li {
   color: white;
 }
 
-.nav-header a:visited, a:hover, a:active {
+.nav-header a:visited,
+a:hover,
+a:active {
   color: inherit;
 }
 
@@ -298,7 +304,7 @@ li {
 }
 
 .lista-de-projetos div {
-  background-color: #2A0134;
+  background-color: #2a0134;
   margin: 0 0;
   padding: 15px 18px;
   color: white;
@@ -308,7 +314,7 @@ li {
 }
 
 .lista-de-projetos div:hover {
-  background-color: #8b32a1;
+  background-color: #5c216b;
 }
 
 .lista-de-projetos {
@@ -326,7 +332,7 @@ li {
   margin-right: 15px;
   margin-left: 15px;
   text-decoration: none;
-  color: #47C072;
+  color: #83f0f0;
   cursor: pointer;
   opacity: 0.7;
 }
