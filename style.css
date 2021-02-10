@@ -28,7 +28,7 @@ body {
   display: flex;
   /* align-items: center; */
   /* background-color: rgb(36, 41, 46); */
-  background-color: #07092B;
+  background-color: #07091b;
   /* 2E5A88 */
   color: white;
   padding: 7px;
@@ -227,7 +227,7 @@ a:active {
 }
 
 .introducao h1 {
-  margin: 140px 0 10px 0;
+  margin: 150px 0 10px 0;
   font-size: 2em;
 }
 
@@ -304,17 +304,17 @@ a:active {
 }
 
 .lista-de-projetos div {
-  background-color: #2a0134;
+  background-color: #080a3aea;
   margin: 0 0;
   padding: 15px 18px;
   color: white;
   font-size: 1.2em;
   font-weight: 700;
-  border-bottom: 1px solid #3b0449;
+  border-bottom: 1px solid #0c0f42;
 }
 
 .lista-de-projetos div:hover {
-  background-color: #5c216b;
+  background-color: #12166e;
 }
 
 .lista-de-projetos {
@@ -332,10 +332,10 @@ a:active {
   margin-right: 15px;
   margin-left: 15px;
   text-decoration: none;
-  color: #83f0f0;
+  color: #00E4F5;
   cursor: pointer;
 }
 
 .section-projetos a:hover {
-  opacity: 0.7;
+  opacity: 0.8;
 }
