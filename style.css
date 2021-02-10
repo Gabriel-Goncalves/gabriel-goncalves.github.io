@@ -239,7 +239,7 @@ a:active {
   display: flex;
   align-content: center;
   align-items: center;
-  min-height: 115vh;
+  min-height: 100vh;
   margin-top: -210px;
 }
 
