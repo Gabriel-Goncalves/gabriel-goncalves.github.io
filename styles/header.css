@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap');
 .cabecalho {
   display: flex;
   background-color: #07091b;
@@ -7,11 +8,12 @@
   width: 100%;
   margin: 0;
   justify-content: space-between;
-  font-family: "Archivo Narrow", sans-serif;
+  font-family: 'Teko', sans-serif;
 }
 
 .cabecalho h1 {
-  margin: 8px 0 8px 20px;
+  margin: 6px 0 4px 20px;
+  font-size: 2.6em;
 }
 
 
