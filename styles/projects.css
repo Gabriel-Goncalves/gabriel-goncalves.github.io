@@ -44,10 +44,11 @@
   margin-right: 15px;
   margin-left: 15px;
   text-decoration: none;
-  color: rgba(151, 151, 151, 0.836);
+  color: rgba(158, 155, 155, 0.836);
   cursor: pointer;
   font-size: 0.9em;
   font-family: 'Marmelad', sans-serif;
+  text-shadow: rgb(19, 18, 18) 0.1em 0.1em;
 }
 
 .section-projetos a:hover {
