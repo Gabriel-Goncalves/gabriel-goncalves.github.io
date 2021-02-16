@@ -1,0 +1,37 @@
+.article-contato {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(17, 17, 17);
+  min-height: 40vh;
+}
+
+.svg-contato {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.svg-contato img {
+  width: 60px;
+}
+
+.svg-contato p {
+  color: beige;
+  font-size: 1.2em;
+}
+
+.svg-contato a {
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.svg-contato a:hover {
+  opacity: 1;
+}
+
+.svg-contato a:visited,
+a:hover,
+a:active {
+  color: inherit;
+}

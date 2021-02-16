@@ -1,0 +1,21 @@
+.introducao {
+  align-items: center;
+  background-image: url(../imgs/first-images/6.png);
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5em;
+  min-height: 100vh;
+  text-align: center;
+  font-family: "Archivo Narrow", sans-serif;
+}
+
+.introducao h1 {
+  margin: 180px 0 10px 0;
+  font-size: 2em;
+}
+
+.introducao h3 {
+  margin-top: 10px;
+}

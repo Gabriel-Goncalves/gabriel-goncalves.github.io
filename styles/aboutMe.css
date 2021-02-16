@@ -1,0 +1,50 @@
+.who-am-i {
+  background-color: #1a1a1a;
+  color: beige;
+  padding-top: 25px;
+}
+
+.who-am-i div {
+  margin-top: 0;
+  padding: 25px 5px;
+  margin-right: 45px;
+  width: 60%;
+}
+
+.sobre {
+  font-weight: 700;
+  font-size: 2.1em;
+  font-family: "Noto Serif", sans-serif;
+  text-align: center;
+  margin-top: 0;
+}
+
+.description-who-am-i {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin-top: -210px;
+}
+
+.descricao {
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 1.1em;
+  padding: 5px;
+  margin-right: 10px;
+  margin-left: 30px;
+  margin-top: 80px;
+}
+
+.text-link a {
+  text-decoration: none;
+  color: #2727F2;
+  font-weight: 600;
+}
+
+.svgs {
+  width: 30%;
+  margin-top: 90px;
+}

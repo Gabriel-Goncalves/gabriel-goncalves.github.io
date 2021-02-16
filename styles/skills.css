@@ -1,0 +1,39 @@
+.article-habilidades {
+  background-color: rgb(17, 17, 17);
+  min-height: 20vh;
+  padding-top: 70px;
+  padding-bottom: 75px;
+}
+
+.article-habilidades h1 {
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  font-size: 3em;
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+
+.habilidades {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  padding-bottom: 20px;
+}
+
+.svg-habilidade {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.svg-habilidade img {
+  width: 65px;
+}
+
+.svg-habilidade p {
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+}
