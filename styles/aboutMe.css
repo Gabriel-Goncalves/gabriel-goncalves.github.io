@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marmelad&display=swap');
 .who-am-i {
   background-color: #1a1a1a;
   color: beige;
@@ -9,29 +11,30 @@
   padding: 25px 5px;
   margin-right: 45px;
   width: 60%;
+  margin-bottom: 40px;
 }
 
 .sobre {
   font-weight: 700;
-  font-size: 2.1em;
-  font-family: "Noto Serif", sans-serif;
+  font-size: 3.5em;
+  font-family: "Teko", sans-serif;
   text-align: center;
-  margin-top: 0;
+  margin-bottom: 10px;
 }
 
 .description-who-am-i {
   display: flex;
-  align-content: center;
+  justify-content: space-around;
   align-items: center;
-  min-height: 100vh;
-  margin-top: -210px;
+  /* min-height: 100vh; */
 }
 
 .descricao {
   color: #ffffff;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Marmelad', sans-serif;
+  text-align: justify;
   font-weight: 400;
-  font-size: 1.1em;
+  font-size: 1.2em;
   padding: 5px;
   margin-right: 10px;
   margin-left: 30px;
@@ -40,11 +43,11 @@
 
 .text-link a {
   text-decoration: none;
-  color: #2727F2;
+  color: #8543ee;
   font-weight: 600;
 }
 
 .svgs {
   width: 30%;
-  margin-top: 90px;
+  margin-top: 40px;
 }
