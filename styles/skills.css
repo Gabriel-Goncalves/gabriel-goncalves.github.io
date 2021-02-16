@@ -1,17 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Marmelad&display=swap');
 .article-habilidades {
   background-color: rgb(17, 17, 17);
-  min-height: 20vh;
-  padding-top: 70px;
+  /* min-height: 20vh; */
+  padding-top: 40px;
   padding-bottom: 75px;
 }
 
 .article-habilidades h1 {
   margin: 0;
+  font-weight: 700;
   padding: 20px;
   text-align: center;
-  font-size: 3em;
-  color: white;
-  font-family: "Raleway", sans-serif;
+  font-size: 3.5em;
+  color: beige;
+  font-family: "Teko", sans-serif;
+  font-size: 1.1;
 }
 
 .habilidades {
@@ -26,6 +29,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: 'Marmelad', sans-serif;
 }
 
 .svg-habilidade img {

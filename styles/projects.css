@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Marmelad&display=swap');
+
 .article-projetos {
   min-height: 80vh;
   background-color: #1a1a1a;
   padding-top: 75px;
   padding-bottom: 80px;
-  font-family: "Archivo Narrow", sans-serif;
+  font-family: "Teko", sans-serif;
+  font-size: 1.1em;
 }
 
 .article-projetos h1 {
@@ -20,7 +23,7 @@
 }
 
 .section-projetos {
-  min-height: 50vh;
+  /* min-height: 50vh; */
   margin-top: 50px;
   width: 47%;
 }
@@ -41,26 +44,30 @@
   margin-right: 15px;
   margin-left: 15px;
   text-decoration: none;
-  color: #00E4F5;
+  color: rgba(151, 151, 151, 0.836);
   cursor: pointer;
+  font-size: 0.9em;
+  font-family: 'Marmelad', sans-serif;
 }
 
 .section-projetos a:hover {
-  opacity: 0.8;
+  color: rgb(228, 227, 227);
+  font-weight: bold;
+  /* opacity: 0.8; */
 }
 
 .lista-de-projetos div {
-  background-color: #080a3aea;
+  background-color: #0d0e0f;
   margin: 0 0;
   padding: 15px 18px;
   color: white;
   font-size: 1.2em;
   font-weight: 700;
-  border-bottom: 1px solid #0c0f42;
+  border-bottom: 1px solid #000000;
 }
 
 .lista-de-projetos div:hover {
-  background-color: #12166e;
+  background-color: #292d33be;
 }
 
 .lista-de-projetos {
