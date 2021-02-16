@@ -2,8 +2,13 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: rgb(17, 17, 17);
+  background-color: rgba(8, 8, 8, 0.945);
   min-height: 40vh;
+  font-family: 'Marmelad', sans-serif;;
+}
+
+.article-contato a {
+  text-decoration: none;
 }
 
 .svg-contato {

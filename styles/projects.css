@@ -1,8 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Marmelad&display=swap');
-
 .article-projetos {
   min-height: 80vh;
-  background-color: #1a1a1a;
+  background-color: #141414f3;
   padding-top: 75px;
   padding-bottom: 80px;
   font-family: "Teko", sans-serif;
@@ -30,7 +28,6 @@
 
 .section-projetos h2 {
   color: beige;
-  background-color: #1a1a1a;
   margin-top: 0;
   text-align: center;
   padding-bottom: 15px;

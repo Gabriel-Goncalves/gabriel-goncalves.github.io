@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Marmelad&display=swap');
 .article-habilidades {
-  background-color: rgb(17, 17, 17);
-  /* min-height: 20vh; */
+  background-color: rgba(8, 8, 8, 0.945);
   padding-top: 40px;
   padding-bottom: 75px;
 }
