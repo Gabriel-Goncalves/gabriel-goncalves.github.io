@@ -22,6 +22,35 @@
   padding-bottom: 20px;
 }
 
+
+.article-habilidades2 {
+  background-color: rgba(8, 8, 8, 0.945);
+  padding-top: 40px;
+  padding-bottom: 75px;
+}
+
+.article-habilidades2 h1 {
+  margin: 0;
+  font-weight: 700;
+  padding: 20px;
+  text-align: center;
+  font-size: 3.5em;
+  color: beige;
+  font-family: "Teko", sans-serif;
+  font-size: 1.1;
+}
+
+.habilidades2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  padding-bottom: 20px;
+}
+
+.habilidades2 div {
+  margin: 0 50px;
+}
+
 .svg-habilidade {
   display: flex;
   flex-direction: column;
