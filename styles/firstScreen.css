@@ -32,10 +32,18 @@
   color: white;
   font-family: 'Teko', sans-serif;
   text-shadow: black 0.1em 0.1em;
+  margin-right: 25px;
+  margin-left: 25px;
 }
 
 .button-resume:hover {
   cursor: pointer;
   text-shadow: black 0.1em 0.1em;
   background-color: #02366F;
+}
+
+.resumes-sections {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
