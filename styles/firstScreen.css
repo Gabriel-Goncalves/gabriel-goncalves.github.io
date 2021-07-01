@@ -20,3 +20,22 @@
 .introducao h2 {
   margin-top: 30px;
 }
+
+.button-resume {
+  padding: 5px 30px;
+  text-decoration: none;
+  pointer-events: inherit;
+  border-radius: 25px;
+  border: none;
+  background-color: #02706F;
+  font-size: 23px;
+  color: white;
+  font-family: 'Teko', sans-serif;
+  text-shadow: black 0.1em 0.1em;
+}
+
+.button-resume:hover {
+  cursor: pointer;
+  text-shadow: black 0.1em 0.1em;
+  background-color: #02366F;
+}
